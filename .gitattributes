@@ -1,2 +1,62 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+##-----------1--------------
+# class Soda:
+#     def __init__(self,x=None):
+#         self.x = x
+#     def show_my_drink(self):
+#         if self.x == None:
+#             return "Sovorakan gazirovka"
+#         else:
+#             return f'{self.x}ov Gazorovka'
+# o = Soda()
+# o = Soda("Laim")
+# print(o.show_my_drink())
+##------------2---------------
+# class iangleChecker:
+#     def  __init__(self,x,y,z):
+#         self.x = x
+#         self.y = y
+#         self.z = z   
+#     def is_triangle(self)->str:
+#         if self.x+self.y>self.z :#or self.x+self.z>self.z or self.y+self.z>self.x:
+#             return ' можно построить треугольник!'
+#         elif type(self.x) != int or type(self.y) != int or type(self.z) != int:
+#             return 'Нужно вводить только числа!'
+#         elif abs(self.x) != self.x or  abs(self.y) != self.y or abs(self.z) != self.z :
+#           return  "отрицательными числами ничего не выйдет!"
+#         else:
+#           return f'Жаль, но из этого треугольник не сделать.'
+# o = iangleChecker(-6,-3,-200)
+# print(o.is_triangle())
+##------------3-----------------
+# class KgToPounds:
+#     def __init__(self, kg:float):
+#         self.__kg = kg
+
+#     def set_kg(self, kg: float):
+#         self.__kg = kg
+
+#     def get_kg(self):
+#         return self.__kg
+
+#     def to_pounds(self):
+#         return 2.20462262 * self.__kg
+
+# o = KgToPounds(20.4)
+# o.set_kg(5.5)
+# print(o.get_kg())
+# o.__kg = 5
+# print(o.get_kg())
+# print(o.to_pounds())
+#-------------4-------------
+# class Nikola:
+#     def __init__(self, name):
+#         self.__name = name
+#     def stugum(self):
+#         if self.name == "Nikola":
+#             return 'I am Nikola'
+#         else:
+#             return f"I am not  {self.name} , I am Nikola "
+# o = Nikola("Nikola")
+# print(o.stugum())
